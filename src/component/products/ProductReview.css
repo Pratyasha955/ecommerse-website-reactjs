@@ -1,0 +1,20 @@
+.product-reviews-container {
+    margin-top: 20px;
+  }
+  
+  .customer-reviews {
+    font-size: 18px;
+  }
+  
+  .customer-review-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .customer-review-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }

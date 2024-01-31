@@ -1,26 +1,26 @@
 .product-item {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
+}
 
-  .product-item:hover .card {
-    transform: scale(1.1);
-  }
+.product-item:hover .card {
+  transform: scale(1.1);
+}
 
-  .product-item .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.product-item .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .product-item .card-title {
-    margin-bottom: 10px;
-  }
+.product-item .card-title {
+  margin-bottom: 10px;
+}
 
-  .product-item .card-text {
-    color: #777;
-  }
+.product-item .card-text {
+  color: #777;
+}
 
-  .product-item .btn-primary {
-    width: 80%;
-    margin-top: auto;
-  }
+.product-item .btn-primary {
+  width: 80%;
+  margin-top: auto;
+}

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProductList from './component/products/ProductList';
+import ProductDetail from './component/products/ProductDetail';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/layout/header';
 import Footer from './component/layout/Footer';
@@ -19,6 +20,7 @@ const App = () => {
           <Routes>
             <Route path="/store" element={<ProductList />} />
             <Route path="/about" element={<About />} />
+            <Route path='/store/:id' element={<ProductDetail />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/" element={<Home />} />
           </Routes>

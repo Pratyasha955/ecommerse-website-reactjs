@@ -5,13 +5,13 @@ import { useProductContext } from '../store/ProductContextProvider';
 import './ProductList.css';
 
 const ProductList = () => {
-  const productsArr = useProductContext().productsArr;
+  const { productsArr, addToCart } = useProductContext();
 
   return (
     <Container className="mt-4">
       <Row>
         {productsArr.map((product, index) => (
-          <ProductItem key={index} {...product} />
+          <ProductItem key={index} {...product} onAddToCart={() => addToCart(product)} />
         ))}
       </Row>
     </Container>
