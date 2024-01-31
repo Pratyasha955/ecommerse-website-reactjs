@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/layout/header';
 import Footer from './component/layout/Footer';
 import About from './component/layout/About';
+import Home from './component/layout/Home';
 import ProductContextProvider from './component/store/ProductContextProvider';
 import './App.css';
 
@@ -17,7 +18,7 @@ const App = () => {
           <Routes>
             <Route path="/store" element={<ProductList />} />
             <Route path="/about" element={<About />} />
-            <Route path="/" element={<ProductList />} />
+            <Route path="/" element={<Home />} />
           </Routes>
           <Footer/>
         </Fragment>

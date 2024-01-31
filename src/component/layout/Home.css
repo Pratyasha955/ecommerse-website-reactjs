@@ -1,0 +1,43 @@
+.header1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.upcoming-shows {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.latest-release {
+    margin-top: 20px;
+}
+
+.latest-release h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.latest-release-details {
+    display: flex;
+    align-items: center;
+}
+
+.play-button {
+    margin-left: 534px;
+}
+
+.play-icon-container {
+    background-color: #3498db;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-icon {
+    color: #ffffff;
+    font-size: 30px;
+}
