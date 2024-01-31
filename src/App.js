@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/layout/header';
 import Footer from './component/layout/Footer';
 import About from './component/layout/About';
+import Contact from './component/layout/Contact';
 import Home from './component/layout/Home';
 import ProductContextProvider from './component/store/ProductContextProvider';
 import './App.css';
@@ -18,6 +19,7 @@ const App = () => {
           <Routes>
             <Route path="/store" element={<ProductList />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/" element={<Home />} />
           </Routes>
           <Footer/>
