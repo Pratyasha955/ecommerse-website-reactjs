@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import ProductItem from './ProductItem';
-import { useProductContext }from '../store/ProductContext';
-import "./ProductList.css";
+import { useProductContext } from '../store/ProductContextProvider';
+import './ProductList.css';
 
 const ProductList = () => {
-  const productsArr = useProductContext();
+  const productsArr = useProductContext().productsArr;
 
   return (
     <Container className="mt-4">
