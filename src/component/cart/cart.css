@@ -1,0 +1,46 @@
+.cart-modal {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .cart-item {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 10px;
+  }
+  
+  .cart-item div {
+    flex-grow: 1;
+  }
+  
+  .cart-item p {
+    margin: 0;
+  }
+  
+  .cart-item button {
+    margin-top: 10px;
+  }
+  
+  /* Adjust modal animation */
+  .modal {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .modal.fade:not(.show) {
+    opacity: 0;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .modal-footer {
+    justify-content: flex-end;
+  }

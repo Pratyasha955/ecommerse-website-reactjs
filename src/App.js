@@ -1,11 +1,15 @@
-import ProductList from './component/products/productlist';
+import ProductList from './component/products/ProductList';
+import Header from './component/layout/header';
+import ProductContextProvider from './component/store/ProductContextProvider'; 
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <ProductList/>
-    </div>
+    <ProductContextProvider>
+      <Header/>
+      <ProductList />
+    </ProductContextProvider>
   );
 }
 
