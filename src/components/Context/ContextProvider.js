@@ -93,7 +93,7 @@ const ProductContextProvider = ({ children }) => {
             if (authCtx.isLoggedIn) {
                 const storedEmailId = localStorage.getItem('user-email');
                 const userEmail = removeSpecialCharacters(storedEmailId);
-                fetch(`https://crudcrud.com/api/3b86df1aadfc4e938dc2d538d26307b7/cart${userEmail}`, {
+                fetch(`https://crudcrud.com/api/0f4e162177024aaea047af52ff7ad8e5/cart${userEmail}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
