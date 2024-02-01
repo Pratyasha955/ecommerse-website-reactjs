@@ -21,7 +21,7 @@ const Login = () => {
     setIsLoading(true);
 
     const url =
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCPEgWiWzichW_XH_xZCBaECXkZOTBqyxc';
+      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBzfGVmEjybe-oPXTh5icGefl0GwZ_xzlg';
 
 
     fetch(url, {
