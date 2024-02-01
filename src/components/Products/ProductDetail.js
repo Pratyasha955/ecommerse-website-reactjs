@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-import { useProductContext } from '../store/ProductContextProvider';
+import { useProductContext } from '../Context/ContextProvider';
 import ProductReview from './ProductReview';
 import './ProductDetail.css';
 

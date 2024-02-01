@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import ProductItem from './ProductItem';
-import { useProductContext } from '../store/ProductContextProvider';
+import { useProductContext } from '../Context/ContextProvider';
 import './ProductList.css';
 
 const ProductList = () => {

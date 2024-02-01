@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://http-ecom-bb9d2-default-rtdb.firebaseio.com/ecom.json', {
+      const response = await fetch('https://http-ecom-default-rtdb.firebaseio.com/ecom.json', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
